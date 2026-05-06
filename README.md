@@ -32,6 +32,9 @@ This repository reflects my continuous growth in problem-solving, algorithms, an
 
 ### **Week 5**
 
+- Matplotlib
+
+### **Week 6**
 
 ---
 
