@@ -1,78 +1,42 @@
-# 🧠 IEEE Mansoura Student Branch — Weekly Problem Solving
+# 🔵 IEEE Mansoura Student Branch — Weekly Tasks
 
-A collection of my solutions to the weekly tasks assigned as part of my journey with the **[IEEE Mansoura Student Branch](https://mansoura.ieee.org/)**. This repository reflects my continuous growth in data science, problem-solving, and clean coding practices.
+My solutions and notebooks from the **[IEEE Mansoura Student Branch](https://mansoura.ieee.org/)** data science track. Each week builds progressively on the last — from Python basics to hands-on data analysis.
 
 ---
 
-## 🚀 Goals of This Repository
+## 📅 Weekly Breakdown
 
-* Improve problem-solving and analytical thinking for data science
-* Strengthen Python and data science foundations through consistent practice
-* Build a habit of weekly challenges and structured learning
-* Document my progress in a clear, organised way
+| Week | Topic | Highlights |
+|------|-------|------------|
+| **Week 1** | Python Basics | String manipulation, conditionals, list comprehensions, and interval logic across 6 exercises |
+| **Week 2** | OOP in Python | Mini Data Lab System (`Data_Lab_System.py`) + Advanced Python notebook |
+| **Week 3** | Statistics & NumPy | Descriptive statistics and NumPy analysis (`StatisticsAndNumpy.ipynb`) |
+| **Week 4** | NumPy Practice | Hands-on exercises notebook (`numpy_exercises.ipynb`) |
 
-
-📚 Learning Roadmap
-────────────────────────────
-```
-📅 Weeks Breakdown
-
-🐍 Week 1 — Python Basics
-> Core fundamentals of Python
-- 001_python_string_split_and_join.py
-- 002_py_if_else.py
-- 003_the_last_2_digits.py
-- 004_list_comprehensions.py
-- 005_swap_case.py
-- 006_two_intervals.py
-
-────────────────────────────
-
-🧱 Week 2 — OOP in Python
-> Object-Oriented Programming & Mini Project
-- Data_Lab_System.py       → Mini OOP Data Lab
-- Advanced_Python_Task.ipynb → Main task notebook
-- README.md               → Documentation
-
-────────────────────────────
-
-📊 Week 3 — Statistics & NumPy
-> Data analysis fundamentals
-- StatisticsAndNumpy.ipynb → Descriptive statistics & NumPy analysis
-
-────────────────────────────
-
-🔢 Week 4 — NumPy Practice
-> Hands-on exercises
-- numpy_exercises.ipynb
-
-────────────────────────────
-
-🚀 Summary
-- Python Basics
-- OOP + Mini Project
-- Statistics & NumPy
-- Practice & Exercises
-```
-
+---
 
 ## 🗂️ Structure
 
-Each week has its own folder. Each problem file contains:
-
-* Problem name & source
-* Short approach / idea
-* Time & Space complexity
-* Solution code
-
-**Example:**
-
 ```
-📂 Week-01
- ┣ 📄 problem_name.py
- ┣ 📄 another_problem.py
- ┗ 📓 solutions.ipynb (Google Colab)
+IEEE/
+├── Week 1/   → Python fundamentals (6 .py files)
+├── Week 2/   → OOP mini project + advanced task notebook
+├── Week 3/   → Statistics & NumPy notebook
+└── Week 4/   → NumPy exercises notebook
 ```
+
+Each file includes:
+- Problem name & source
+- Approach / key idea
+- Solution code
+
+---
+
+## 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
 ---
 
