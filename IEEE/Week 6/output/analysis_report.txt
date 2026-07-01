@@ -1,0 +1,348 @@
+============================================================
+LIBRARY MANAGEMENT ANALYSIS
+============================================================
+
+============================================================
+EXPLORE: books
+============================================================
+(400, 9)
+BookID               str
+Title                str
+Author               str
+Genre                str
+PublicationYear    int64
+Publisher            str
+Pages              int64
+Language             str
+CopiesAvailable    int64
+dtype: object
+BookID             0
+Title              0
+Author             0
+Genre              0
+PublicationYear    0
+Publisher          0
+Pages              0
+Language           0
+CopiesAvailable    0
+dtype: int64
+  BookID   Title             Author            Genre  PublicationYear      Publisher  Pages Language  CopiesAvailable
+0   B001  Book 1      George Orwell  Science Fiction             1986        Pearson    401  English                3
+1   B002  Book 2  Brandon Sanderson          Mystery             1991        Pearson    678  English                1
+2   B003  Book 3        Jane Austen      Programming             1987        Penguin    215  English                3
+3   B004  Book 4  Brandon Sanderson         Business             2023        Penguin    694  English                3
+4   B005  Book 5           Mark Lee         Business             2011  HarperCollins    579  English                4
+
+============================================================
+EXPLORE: borrowings
+============================================================
+(2000, 5)
+BorrowID      str
+MemberID      str
+BookID        str
+BorrowDate    str
+ReturnDate    str
+dtype: object
+BorrowID      0
+MemberID      0
+BookID        0
+BorrowDate    0
+ReturnDate    0
+dtype: int64
+  BorrowID MemberID BookID  BorrowDate  ReturnDate
+0   BR0001     M063   B143  2025-05-17  2025-06-07
+1   BR0002     M101   B159  2024-10-14  2024-11-12
+2   BR0003     M140   B077  2025-07-31  2025-08-09
+3   BR0004     M007   B385  2026-02-25  2026-03-17
+4   BR0005     M054   B184  2025-04-17  2025-05-12
+
+============================================================
+EXPLORE: members
+============================================================
+(150, 6)
+MemberID            str
+Name                str
+MembershipType      str
+Age               int64
+Gender              str
+JoinDate            str
+dtype: object
+MemberID          0
+Name              0
+MembershipType    0
+Age               0
+Gender            0
+JoinDate          0
+dtype: int64
+  MemberID      Name MembershipType  Age  Gender    JoinDate
+0     M001  Member 1        Student   47    Male  2025-02-18
+1     M002  Member 2         Public   47  Female  2022-02-14
+2     M003  Member 3         Public   43  Female  2022-01-07
+3     M004  Member 4        Student   65    Male  2025-03-30
+4     M005  Member 5        Student   22    Male  2024-05-17
+
+============================================================
+PROBABILITY
+============================================================
+P(borrowed book is 'Fantasy') = 0.1580
+P(member is 'Student') = 0.6000
+P(genre='Fantasy' and membership='Student') = 0.0985
+
+============================================================
+Borrowings per genre (highest/lowest)
+============================================================
+Genre
+Mystery            512
+Data Science       328
+Fantasy            316
+Programming        295
+Business           121
+Self Help           97
+Biography           84
+History             83
+Science Fiction     83
+Romance             81
+Name: count, dtype: int64
+
+============================================================
+Most frequent borrowers
+============================================================
+MemberID  Name      
+M078      Member 78     31
+M147      Member 147    24
+M126      Member 126    23
+M122      Member 122    23
+M017      Member 17     20
+Name: BorrowID, dtype: int64
+
+============================================================
+Borrowing by membership type
+============================================================
+MembershipType
+Student    1197
+Public      415
+Faculty     289
+Premium      99
+Name: BorrowID, dtype: int64
+
+============================================================
+Borrowings by publication year
+============================================================
+PublicationYear
+1985     40
+1986     19
+1987     90
+1988     20
+1989    108
+1990     86
+1991     48
+1992     34
+1993     24
+1994     62
+1995     45
+1996     35
+1997     48
+1998     62
+1999     15
+2000     59
+2001     58
+2002     70
+2003    102
+2004     41
+2005     58
+2006     44
+2007     81
+2008     46
+2009     12
+2010     23
+2011     57
+2012     30
+2013     44
+2014     15
+2015     40
+2016     50
+2017     40
+2018     46
+2019     96
+2020     50
+2021     38
+2022     45
+2023     44
+2024     24
+2025     51
+Name: BorrowID, dtype: int64
+
+============================================================
+Most popular authors
+============================================================
+Author
+Alice Brown          191
+David Clark          178
+Sarah Mitchell       170
+Brandon Sanderson    169
+J.K. Rowling         157
+Name: BorrowID, dtype: int64
+
+============================================================
+Books never borrowed
+============================================================
+23 of 400 books never borrowed
+    BookID     Title             Author            Genre
+11    B012   Book 12       J.K. Rowling          Romance
+12    B013   Book 13      George Orwell        Biography
+14    B015   Book 15           Mark Lee          Romance
+30    B031   Book 31  Brandon Sanderson        Self Help
+38    B039   Book 39  Brandon Sanderson          History
+43    B044   Book 44  Brandon Sanderson         Business
+91    B092   Book 92        David Clark          Romance
+124   B125  Book 125         John Smith        Biography
+128   B129  Book 129        Jane Austen        Self Help
+174   B175  Book 175        Maria Green          History
+180   B181  Book 181     Sarah Mitchell         Business
+212   B213  Book 213        Maria Green        Self Help
+241   B242  Book 242       Isaac Asimov        Biography
+267   B268  Book 268       Isaac Asimov          Romance
+293   B294  Book 294       Isaac Asimov          Romance
+297   B298  Book 298       Isaac Asimov  Science Fiction
+309   B310  Book 310        Jane Austen          Romance
+316   B317  Book 317    Agatha Christie        Biography
+321   B322  Book 322  Yuval Noah Harari        Biography
+336   B337  Book 337        Maria Green         Business
+343   B344  Book 344        Emily Stone         Business
+347   B348  Book 348      George Orwell        Self Help
+377   B378  Book 378      Robert Martin        Biography
+
+============================================================
+Average borrow duration by genre
+============================================================
+Genre
+Biography          18.13
+Science Fiction    17.80
+Self Help          17.54
+Data Science       17.47
+Programming        17.21
+Business           17.19
+Mystery            16.93
+Romance            16.86
+History            16.49
+Fantasy            15.81
+Name: Duration, dtype: float64
+
+============================================================
+Genre distribution of the catalog
+============================================================
+Genre
+Business           52
+Mystery            43
+Data Science       43
+Self Help          42
+Programming        40
+Biography          40
+History            39
+Science Fiction    35
+Romance            34
+Fantasy            32
+Name: count, dtype: int64
+
+============================================================
+Monthly borrowing trend
+============================================================
+BorrowDate
+2024-01-01    61
+2024-02-01    66
+2024-03-01    66
+2024-04-01    71
+2024-05-01    60
+2024-06-01    73
+2024-07-01    77
+2024-08-01    67
+2024-09-01    51
+2024-10-01    51
+2024-11-01    77
+2024-12-01    56
+2025-01-01    76
+2025-02-01    67
+2025-03-01    74
+2025-04-01    60
+2025-05-01    76
+2025-06-01    61
+2025-07-01    76
+2025-08-01    75
+2025-09-01    64
+2025-10-01    75
+2025-11-01    70
+2025-12-01    77
+2026-01-01    71
+2026-02-01    60
+2026-03-01    78
+2026-04-01    69
+2026-05-01    68
+2026-06-01    27
+Freq: MS, Name: BorrowID, dtype: int64
+
+============================================================
+Extra insight 1: most borrowed titles
+============================================================
+BookID  Title   
+B361    Book 361    19
+B324    Book 324    18
+B370    Book 370    17
+B289    Book 289    17
+B162    Book 162    17
+Name: BorrowID, dtype: int64
+
+============================================================
+Extra insight 2: borrowing by age group
+============================================================
+AgeGroup
+<18       42
+18-30    483
+31-45    604
+46-60    555
+60+      316
+Name: BorrowID, dtype: int64
+
+============================================================
+Extra insight 3: demand vs supply by genre
+============================================================
+                 CopiesAvailable  Borrowings  BorrowingsPerCopy
+Genre                                                          
+Mystery                      171         512               2.99
+Fantasy                      126         316               2.51
+Programming                  151         295               1.95
+Data Science                 173         328               1.90
+Science Fiction              128          83               0.65
+Romance                      134          81               0.60
+Business                     205         121               0.59
+History                      166          83               0.50
+Self Help                    200          97               0.48
+Biography                    182          84               0.46
+
+============================================================
+NumPy: columns as arrays
+============================================================
+durations: [21 29  9 20 25]
+pages: [401 678 215 694 579]
+
+============================================================
+NumPy: highest/lowest duration
+============================================================
+Min: 3 days | Max: 30 days
+
+============================================================
+NumPy: boolean indexing (borrowings > 21 days)
+============================================================
+715 of 2000 borrowings lasted > 21 days
+
+============================================================
+NumPy: sorted array (page counts, descending)
+============================================================
+[699 698 698 697 695 695 694 694 694 692]
+
+============================================================
+NumPy: vectorized calculation - borrows per copy
+============================================================
+Top 5 demand-pressure values: [19. 17. 17. 15. 14.]
+
+============================================================
+FINAL SUMMARY
