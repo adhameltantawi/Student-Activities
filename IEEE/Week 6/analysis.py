@@ -121,3 +121,29 @@ def run_pandas(books, borrowings, merged):
 
     return results
 
+
+# ---------- NumPy analysis ----------
+
+def run_numpy(books, borrowings, merged):
+    section("NumPy: columns as arrays")
+    durations = borrowings["Duration"].to_numpy()
+    pages = books["Pages"].to_numpy()
+    print("durations:", durations[:5])
+    print("pages:", pages[:5])
+
+    section("NumPy: highest/lowest duration")
+    print(f"Min: {durations.min()} days | Max: {durations.max()} days")
+
+    section("NumPy: boolean indexing (borrowings > 21 days)")
+    long_borrowings = durations[durations > 21]
+    print(f"{len(long_borrowings)} of {len(durations)} borrowings lasted > 21 days")
+
+    section("NumPy: sorted array (page counts, descending)")
+    print(np.sort(pages)[::-1][:10])
+
+    section("NumPy: vectorized calculation - borrows per copy")
+    counts = merged.groupby("BookID")["BorrowID"].count().reindex(books["BookID"], fill_value=0).to_numpy()
+    copies = books["CopiesAvailable"].to_numpy()
+    pressure = counts / np.where(copies == 0, 1, copies)
+    print("Top 5 demand-pressure values:", np.sort(pressure)[::-1][:5])
+
