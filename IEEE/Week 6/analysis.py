@@ -147,3 +147,40 @@ def run_numpy(books, borrowings, merged):
     pressure = counts / np.where(copies == 0, 1, copies)
     print("Top 5 demand-pressure values:", np.sort(pressure)[::-1][:5])
 
+
+# ---------- Summary ----------
+
+def print_summary(pandas_results, books):
+    section("FINAL SUMMARY")
+
+    g = pandas_results["genre_counts"]
+    top_borrower = pandas_results["top_borrowers"].iloc[0]
+    never = pandas_results["never_borrowed"]
+    d = pandas_results["duration_by_genre"]
+    a = pandas_results["top_authors"]
+    ds = pandas_results["demand_supply"]
+
+    print(f"1. Most borrowed genre: '{g.idxmax()}' ({g.max()}). Least borrowed: '{g.idxmin()}' ({g.min()}).")
+    print(f"2. Top borrower has {top_borrower} borrowings.")
+    print(f"3. {len(never)} of {len(books)} books ({len(never)/len(books):.1%}) have never been borrowed.")
+    print(f"4. Avg borrow duration ranges from {d.min():.1f} days ('{d.idxmin()}') to {d.max():.1f} days ('{d.idxmax()}').")
+    print(f"5. Most borrowed author: '{a.index[0]}' ({a.iloc[0]} borrowings).")
+    print(f"6. '{ds['BorrowingsPerCopy'].idxmax()}' has the highest borrows-per-copy ratio ({ds['BorrowingsPerCopy'].max():.2f}), suggesting it may be understocked.")
+
+
+def main():
+    section("LIBRARY MANAGEMENT ANALYSIS")
+    books, borrowings, members = load_data()
+    explore(books, borrowings, members)
+
+    books, borrowings, members = clean(books, borrowings, members)
+    merged = merge_all(books, borrowings, members)
+
+    run_probability(merged, members)
+    pandas_results = run_pandas(books, borrowings, merged)
+    run_numpy(books, borrowings, merged)
+    print_summary(pandas_results, books)
+
+
+if __name__ == "__main__":
+    main()
