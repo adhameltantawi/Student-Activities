@@ -25,3 +25,20 @@ def explore(books, borrowings, members):
         print(df.isnull().sum())
         print(df.head())
 
+
+# ---------- Clean & merge ----------
+
+def clean(books, borrowings, members):
+    # Only issue found: dates are stored as strings. Convert them so date
+    # arithmetic (duration, monthly trend) works.
+    borrowings["BorrowDate"] = pd.to_datetime(borrowings["BorrowDate"])
+    borrowings["ReturnDate"] = pd.to_datetime(borrowings["ReturnDate"])
+    members["JoinDate"] = pd.to_datetime(members["JoinDate"])
+    borrowings["Duration"] = (borrowings["ReturnDate"] - borrowings["BorrowDate"]).dt.days
+    return books, borrowings, members
+
+
+def merge_all(books, borrowings, members):
+    merged = borrowings.merge(books, on="BookID").merge(members, on="MemberID")
+    return merged
+
