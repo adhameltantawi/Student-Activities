@@ -42,3 +42,19 @@ def merge_all(books, borrowings, members):
     merged = borrowings.merge(books, on="BookID").merge(members, on="MemberID")
     return merged
 
+
+# ---------- Probability ----------
+
+def run_probability(merged, members):
+    section("PROBABILITY")
+
+    genre, membership = "Fantasy", "Student"
+
+    p_genre = (merged["Genre"] == genre).mean()
+    p_membership = (members["MembershipType"] == membership).mean()
+    p_both = ((merged["Genre"] == genre) & (merged["MembershipType"] == membership)).mean()
+
+    print(f"P(borrowed book is '{genre}') = {p_genre:.4f}")
+    print(f"P(member is '{membership}') = {p_membership:.4f}")
+    print(f"P(genre='{genre}' and membership='{membership}') = {p_both:.4f}")
+
