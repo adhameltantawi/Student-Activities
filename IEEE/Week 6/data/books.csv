@@ -1,0 +1,401 @@
+BookID,Title,Author,Genre,PublicationYear,Publisher,Pages,Language,CopiesAvailable
+B001,Book 1,George Orwell,Science Fiction,1986,Pearson,401,English,3
+B002,Book 2,Brandon Sanderson,Mystery,1991,Pearson,678,English,1
+B003,Book 3,Jane Austen,Programming,1987,Penguin,215,English,3
+B004,Book 4,Brandon Sanderson,Business,2023,Penguin,694,English,3
+B005,Book 5,Mark Lee,Business,2011,HarperCollins,579,English,4
+B006,Book 6,Alice Brown,Fantasy,1995,Pearson,552,English,5
+B007,Book 7,Yuval Noah Harari,Mystery,1998,O'Reilly,224,English,1
+B008,Book 8,John Smith,Science Fiction,2007,O'Reilly,390,English,0
+B009,Book 9,Mark Lee,Data Science,2019,Penguin,507,English,1
+B010,Book 10,Isaac Asimov,History,2025,Random House,490,English,3
+B011,Book 11,Mark Lee,Science Fiction,1987,Pearson,353,English,4
+B012,Book 12,J.K. Rowling,Romance,1991,No Starch,404,English,7
+B013,Book 13,George Orwell,Biography,1995,O'Reilly,483,English,3
+B014,Book 14,George Orwell,History,1989,Random House,295,English,8
+B015,Book 15,Mark Lee,Romance,1995,No Starch,508,English,4
+B016,Book 16,Maria Green,Business,1999,Pearson,452,English,0
+B017,Book 17,Brandon Sanderson,Fantasy,2005,No Starch,394,English,1
+B018,Book 18,Brandon Sanderson,Self Help,2005,HarperCollins,631,English,6
+B019,Book 19,Maria Green,Data Science,1994,O'Reilly,262,English,3
+B020,Book 20,Mark Lee,Business,2019,O'Reilly,558,English,6
+B021,Book 21,Sarah Mitchell,Romance,1993,Random House,625,English,1
+B022,Book 22,Alice Brown,Fantasy,1992,HarperCollins,283,English,6
+B023,Book 23,Jane Austen,Science Fiction,2009,No Starch,599,English,8
+B024,Book 24,Yuval Noah Harari,Business,1985,Pearson,237,English,8
+B025,Book 25,Alice Brown,History,2006,Penguin,420,English,6
+B026,Book 26,Robert Martin,Data Science,1985,Pearson,389,English,8
+B027,Book 27,Alice Brown,Mystery,2017,Penguin,425,English,8
+B028,Book 28,Jane Austen,Romance,1994,O'Reilly,285,English,8
+B029,Book 29,Alice Brown,Business,1985,Random House,451,English,7
+B030,Book 30,Agatha Christie,Science Fiction,2008,O'Reilly,365,English,0
+B031,Book 31,Brandon Sanderson,Self Help,1990,Penguin,617,English,1
+B032,Book 32,Alice Brown,Business,1993,HarperCollins,606,English,8
+B033,Book 33,Robert Martin,History,2018,Random House,553,English,3
+B034,Book 34,Maria Green,Business,1997,Pearson,439,English,6
+B035,Book 35,George Orwell,Biography,2013,Random House,582,English,1
+B036,Book 36,Brandon Sanderson,Romance,1989,O'Reilly,141,English,8
+B037,Book 37,Brandon Sanderson,Self Help,1999,Penguin,192,English,0
+B038,Book 38,Brandon Sanderson,Science Fiction,1987,O'Reilly,192,English,8
+B039,Book 39,Brandon Sanderson,History,2016,HarperCollins,672,English,2
+B040,Book 40,Mark Lee,Self Help,2021,No Starch,368,English,7
+B041,Book 41,Alice Brown,Programming,1997,Penguin,219,English,6
+B042,Book 42,Sarah Mitchell,Programming,2011,No Starch,175,English,1
+B043,Book 43,Agatha Christie,Programming,2006,Penguin,374,English,3
+B044,Book 44,Brandon Sanderson,Business,2013,HarperCollins,552,English,2
+B045,Book 45,Yuval Noah Harari,Data Science,2000,Penguin,573,English,8
+B046,Book 46,J.K. Rowling,Fantasy,2019,Penguin,215,English,3
+B047,Book 47,Robert Martin,Programming,2016,No Starch,338,English,6
+B048,Book 48,Maria Green,Fantasy,1995,No Starch,122,English,6
+B049,Book 49,Yuval Noah Harari,Data Science,2003,No Starch,689,English,7
+B050,Book 50,Robert Martin,Romance,2003,HarperCollins,179,English,8
+B051,Book 51,Agatha Christie,Biography,1988,Penguin,608,English,8
+B052,Book 52,Maria Green,Business,1995,Penguin,640,English,1
+B053,Book 53,David Clark,Mystery,1989,Random House,189,English,3
+B054,Book 54,John Smith,Science Fiction,2021,HarperCollins,160,English,1
+B055,Book 55,John Smith,Self Help,2021,Random House,443,English,4
+B056,Book 56,Brandon Sanderson,Biography,2000,O'Reilly,525,English,2
+B057,Book 57,George Orwell,History,2014,O'Reilly,194,English,0
+B058,Book 58,Emily Stone,Self Help,2021,Penguin,195,English,8
+B059,Book 59,Brandon Sanderson,Business,2001,HarperCollins,477,English,1
+B060,Book 60,Maria Green,Romance,2008,O'Reilly,281,English,7
+B061,Book 61,David Clark,Business,2004,Random House,661,English,0
+B062,Book 62,George Orwell,Business,2004,Pearson,226,English,2
+B063,Book 63,Yuval Noah Harari,Science Fiction,1991,Pearson,686,English,2
+B064,Book 64,Yuval Noah Harari,History,2023,HarperCollins,471,English,3
+B065,Book 65,George Orwell,History,2017,No Starch,377,English,0
+B066,Book 66,J.K. Rowling,Programming,2002,Penguin,123,English,5
+B067,Book 67,Alice Brown,Mystery,2025,O'Reilly,285,English,7
+B068,Book 68,Isaac Asimov,Programming,2020,Penguin,234,English,1
+B069,Book 69,Maria Green,Mystery,2019,Penguin,498,English,8
+B070,Book 70,Robert Martin,Programming,1993,Penguin,435,English,5
+B071,Book 71,Maria Green,Fantasy,2007,HarperCollins,375,English,1
+B072,Book 72,Sarah Mitchell,Business,2011,Random House,278,English,3
+B073,Book 73,David Clark,Mystery,1996,No Starch,145,English,2
+B074,Book 74,Mark Lee,Biography,2011,Pearson,374,English,4
+B075,Book 75,Robert Martin,Science Fiction,2009,Penguin,601,English,3
+B076,Book 76,Brandon Sanderson,Data Science,2007,O'Reilly,353,English,3
+B077,Book 77,Agatha Christie,Romance,2010,O'Reilly,405,English,1
+B078,Book 78,Alice Brown,History,2007,Pearson,641,English,6
+B079,Book 79,George Orwell,Business,2006,Penguin,238,English,4
+B080,Book 80,Robert Martin,Self Help,2001,Penguin,231,English,6
+B081,Book 81,Sarah Mitchell,Biography,2012,Random House,643,English,1
+B082,Book 82,John Smith,Self Help,1997,O'Reilly,165,English,6
+B083,Book 83,Agatha Christie,Business,2019,Pearson,321,English,5
+B084,Book 84,John Smith,Science Fiction,2006,Random House,441,English,1
+B085,Book 85,Mark Lee,History,2017,O'Reilly,538,English,5
+B086,Book 86,John Smith,History,2020,HarperCollins,316,English,6
+B087,Book 87,George Orwell,Programming,1996,Random House,428,English,6
+B088,Book 88,Isaac Asimov,Fantasy,2004,O'Reilly,335,English,6
+B089,Book 89,Alice Brown,Self Help,2023,Pearson,449,English,7
+B090,Book 90,Emily Stone,Data Science,1998,Random House,604,English,2
+B091,Book 91,George Orwell,Science Fiction,2003,Random House,463,English,1
+B092,Book 92,David Clark,Romance,2004,HarperCollins,323,English,2
+B093,Book 93,Agatha Christie,Fantasy,2000,No Starch,194,English,7
+B094,Book 94,John Smith,Self Help,1997,Pearson,513,English,7
+B095,Book 95,John Smith,Romance,1994,Pearson,125,English,1
+B096,Book 96,Alice Brown,Programming,1999,HarperCollins,650,English,7
+B097,Book 97,Agatha Christie,Business,2000,Penguin,587,English,2
+B098,Book 98,Alice Brown,Data Science,2018,Random House,444,English,7
+B099,Book 99,Jane Austen,Business,2012,Random House,576,English,2
+B100,Book 100,Mark Lee,Data Science,2013,O'Reilly,373,English,4
+B101,Book 101,Alice Brown,Business,2016,Pearson,364,English,4
+B102,Book 102,Emily Stone,Science Fiction,2003,HarperCollins,398,English,5
+B103,Book 103,Sarah Mitchell,Business,1990,HarperCollins,274,English,3
+B104,Book 104,John Smith,Mystery,1998,Penguin,544,English,6
+B105,Book 105,Sarah Mitchell,Business,2014,No Starch,183,English,3
+B106,Book 106,David Clark,Programming,2009,Random House,140,English,6
+B107,Book 107,Emily Stone,Fantasy,2007,O'Reilly,519,English,6
+B108,Book 108,Isaac Asimov,Business,2023,HarperCollins,619,English,3
+B109,Book 109,Yuval Noah Harari,Programming,2016,Penguin,518,English,5
+B110,Book 110,George Orwell,Programming,1995,No Starch,250,English,8
+B111,Book 111,Agatha Christie,Programming,2022,Random House,147,English,1
+B112,Book 112,George Orwell,Programming,1993,No Starch,306,English,0
+B113,Book 113,Yuval Noah Harari,Programming,2005,HarperCollins,585,English,5
+B114,Book 114,Sarah Mitchell,Programming,2002,No Starch,378,English,1
+B115,Book 115,Emily Stone,Fantasy,2019,Penguin,478,English,3
+B116,Book 116,George Orwell,Science Fiction,1987,Penguin,373,English,3
+B117,Book 117,David Clark,Fantasy,2024,HarperCollins,364,English,2
+B118,Book 118,Emily Stone,Science Fiction,2021,HarperCollins,596,English,4
+B119,Book 119,Alice Brown,Biography,1995,Random House,237,English,2
+B120,Book 120,Yuval Noah Harari,Science Fiction,2022,Penguin,439,English,6
+B121,Book 121,John Smith,Romance,1989,Random House,368,English,1
+B122,Book 122,Mark Lee,History,2023,Penguin,699,English,0
+B123,Book 123,Sarah Mitchell,Business,2012,Pearson,499,English,1
+B124,Book 124,Isaac Asimov,Biography,1985,No Starch,621,English,1
+B125,Book 125,John Smith,Biography,2025,No Starch,276,English,6
+B126,Book 126,Robert Martin,Business,2002,Random House,671,English,7
+B127,Book 127,Emily Stone,Programming,2022,O'Reilly,450,English,3
+B128,Book 128,David Clark,Science Fiction,2002,No Starch,369,English,7
+B129,Book 129,Jane Austen,Self Help,2009,O'Reilly,149,English,7
+B130,Book 130,David Clark,Biography,1996,No Starch,337,English,5
+B131,Book 131,Alice Brown,History,2006,O'Reilly,402,English,8
+B132,Book 132,Agatha Christie,Business,1997,Penguin,367,English,6
+B133,Book 133,Emily Stone,Business,2000,Pearson,607,English,7
+B134,Book 134,Emily Stone,Fantasy,1990,O'Reilly,346,English,6
+B135,Book 135,Mark Lee,Romance,2004,Pearson,497,English,7
+B136,Book 136,Isaac Asimov,Business,2007,No Starch,683,English,5
+B137,Book 137,Sarah Mitchell,Data Science,2002,O'Reilly,377,English,3
+B138,Book 138,J.K. Rowling,Romance,2005,Penguin,668,English,2
+B139,Book 139,Brandon Sanderson,Romance,2015,O'Reilly,657,English,4
+B140,Book 140,J.K. Rowling,Romance,2003,HarperCollins,489,English,2
+B141,Book 141,Yuval Noah Harari,Fantasy,2019,HarperCollins,400,English,0
+B142,Book 142,Agatha Christie,Business,2003,Pearson,249,English,7
+B143,Book 143,J.K. Rowling,Fantasy,2021,O'Reilly,600,English,7
+B144,Book 144,Emily Stone,Biography,1996,Penguin,378,English,7
+B145,Book 145,J.K. Rowling,Science Fiction,2010,No Starch,195,English,0
+B146,Book 146,Robert Martin,Mystery,2021,O'Reilly,207,English,3
+B147,Book 147,J.K. Rowling,Business,2011,Random House,351,English,8
+B148,Book 148,John Smith,Data Science,2013,O'Reilly,559,English,4
+B149,Book 149,Jane Austen,Self Help,1988,Random House,221,English,3
+B150,Book 150,George Orwell,Romance,2001,Pearson,203,English,2
+B151,Book 151,Brandon Sanderson,Mystery,2020,Penguin,280,English,0
+B152,Book 152,John Smith,Data Science,2023,No Starch,418,English,0
+B153,Book 153,Brandon Sanderson,History,2003,Pearson,584,English,1
+B154,Book 154,George Orwell,Romance,2001,Pearson,322,English,6
+B155,Book 155,J.K. Rowling,Business,1999,Pearson,272,English,4
+B156,Book 156,David Clark,Mystery,1989,Penguin,289,English,4
+B157,Book 157,Jane Austen,Self Help,2003,No Starch,247,English,7
+B158,Book 158,Mark Lee,History,2010,O'Reilly,632,English,8
+B159,Book 159,Emily Stone,Data Science,1990,Random House,160,English,6
+B160,Book 160,Mark Lee,Biography,2023,O'Reilly,146,English,1
+B161,Book 161,Brandon Sanderson,Self Help,2022,Penguin,395,English,0
+B162,Book 162,Alice Brown,Mystery,2015,Random House,572,English,4
+B163,Book 163,Robert Martin,Self Help,2012,Pearson,623,English,1
+B164,Book 164,Emily Stone,Biography,2011,O'Reilly,448,English,1
+B165,Book 165,David Clark,Mystery,2006,No Starch,627,English,4
+B166,Book 166,George Orwell,Programming,2020,Penguin,585,English,1
+B167,Book 167,Sarah Mitchell,History,2005,Penguin,533,English,8
+B168,Book 168,David Clark,Fantasy,2019,No Starch,543,English,0
+B169,Book 169,Brandon Sanderson,Business,2008,Random House,630,English,7
+B170,Book 170,Alice Brown,Fantasy,1998,O'Reilly,682,English,2
+B171,Book 171,Maria Green,History,2013,Pearson,616,English,1
+B172,Book 172,Agatha Christie,Self Help,2000,Pearson,282,English,4
+B173,Book 173,Isaac Asimov,Fantasy,2020,No Starch,215,English,3
+B174,Book 174,David Clark,Science Fiction,2014,Penguin,277,English,7
+B175,Book 175,Maria Green,History,2017,Pearson,399,English,6
+B176,Book 176,David Clark,Data Science,2015,HarperCollins,587,English,8
+B177,Book 177,Robert Martin,Programming,1997,Random House,640,English,2
+B178,Book 178,David Clark,Science Fiction,2002,No Starch,468,English,8
+B179,Book 179,Yuval Noah Harari,Fantasy,2003,Pearson,425,English,7
+B180,Book 180,David Clark,Mystery,2013,Random House,615,English,5
+B181,Book 181,Sarah Mitchell,Business,2019,No Starch,586,English,5
+B182,Book 182,David Clark,Romance,2000,Random House,512,English,3
+B183,Book 183,David Clark,Programming,1987,O'Reilly,604,English,6
+B184,Book 184,John Smith,Mystery,2016,Penguin,249,English,8
+B185,Book 185,Jane Austen,Biography,1991,No Starch,222,English,8
+B186,Book 186,Maria Green,Data Science,1985,Pearson,267,English,6
+B187,Book 187,David Clark,Mystery,1989,No Starch,391,English,5
+B188,Book 188,Jane Austen,Programming,1990,O'Reilly,666,English,6
+B189,Book 189,Sarah Mitchell,Data Science,2019,Penguin,190,English,3
+B190,Book 190,George Orwell,History,1999,Pearson,212,English,6
+B191,Book 191,J.K. Rowling,Science Fiction,2013,HarperCollins,426,English,0
+B192,Book 192,Agatha Christie,Biography,1988,O'Reilly,487,English,5
+B193,Book 193,John Smith,Mystery,2000,Random House,541,English,2
+B194,Book 194,Robert Martin,Mystery,1990,Random House,511,English,3
+B195,Book 195,Emily Stone,Self Help,1994,HarperCollins,592,English,4
+B196,Book 196,Emily Stone,History,1985,No Starch,414,English,8
+B197,Book 197,Robert Martin,Science Fiction,2013,O'Reilly,426,English,6
+B198,Book 198,Mark Lee,History,2014,O'Reilly,323,English,6
+B199,Book 199,David Clark,Data Science,1991,HarperCollins,510,English,5
+B200,Book 200,Jane Austen,History,2003,Penguin,525,English,4
+B201,Book 201,Agatha Christie,Self Help,1988,Random House,628,English,4
+B202,Book 202,Alice Brown,Romance,2023,O'Reilly,344,English,3
+B203,Book 203,Jane Austen,History,1993,Pearson,219,English,0
+B204,Book 204,Yuval Noah Harari,Data Science,1987,Random House,493,English,2
+B205,Book 205,J.K. Rowling,History,2005,Pearson,545,English,2
+B206,Book 206,Brandon Sanderson,Mystery,2019,O'Reilly,663,English,8
+B207,Book 207,Maria Green,History,1995,O'Reilly,613,English,4
+B208,Book 208,Mark Lee,Biography,1992,No Starch,197,English,2
+B209,Book 209,Alice Brown,Romance,2010,Random House,494,English,1
+B210,Book 210,Alice Brown,Programming,1985,O'Reilly,669,English,1
+B211,Book 211,Emily Stone,Biography,2001,Random House,510,English,5
+B212,Book 212,J.K. Rowling,Romance,2015,Penguin,694,English,5
+B213,Book 213,Maria Green,Self Help,1999,Pearson,184,English,7
+B214,Book 214,Maria Green,History,2011,Penguin,263,English,0
+B215,Book 215,Agatha Christie,History,2016,Penguin,219,English,3
+B216,Book 216,Maria Green,Business,1993,No Starch,584,English,5
+B217,Book 217,George Orwell,Business,2011,Random House,278,English,6
+B218,Book 218,George Orwell,Science Fiction,2016,Random House,537,English,4
+B219,Book 219,Agatha Christie,Biography,1998,No Starch,575,English,3
+B220,Book 220,David Clark,Biography,1991,Pearson,496,English,8
+B221,Book 221,Maria Green,Biography,1988,No Starch,402,English,3
+B222,Book 222,J.K. Rowling,Data Science,1990,Pearson,337,English,0
+B223,Book 223,Agatha Christie,Biography,2000,HarperCollins,698,English,3
+B224,Book 224,J.K. Rowling,Business,1998,Random House,341,English,3
+B225,Book 225,Sarah Mitchell,Mystery,2023,Penguin,403,English,2
+B226,Book 226,Robert Martin,Business,2001,HarperCollins,232,English,0
+B227,Book 227,Robert Martin,Fantasy,2007,HarperCollins,451,English,0
+B228,Book 228,Robert Martin,History,1988,HarperCollins,551,English,8
+B229,Book 229,J.K. Rowling,Science Fiction,2015,No Starch,490,English,8
+B230,Book 230,Jane Austen,Science Fiction,2013,Random House,346,English,0
+B231,Book 231,Mark Lee,Business,2004,No Starch,151,English,0
+B232,Book 232,Emily Stone,Programming,2012,Pearson,230,English,7
+B233,Book 233,Mark Lee,Data Science,1989,Penguin,449,English,2
+B234,Book 234,J.K. Rowling,Mystery,2002,Random House,681,English,5
+B235,Book 235,John Smith,Self Help,2018,O'Reilly,584,English,8
+B236,Book 236,Jane Austen,Programming,1991,Pearson,237,English,8
+B237,Book 237,Mark Lee,Romance,2012,No Starch,353,English,6
+B238,Book 238,Sarah Mitchell,Data Science,2010,No Starch,217,English,5
+B239,Book 239,John Smith,Biography,2001,O'Reilly,276,English,7
+B240,Book 240,J.K. Rowling,Science Fiction,1990,Penguin,562,English,1
+B241,Book 241,Mark Lee,Biography,1993,Random House,181,English,8
+B242,Book 242,Isaac Asimov,Biography,1992,No Starch,482,English,6
+B243,Book 243,David Clark,Fantasy,2003,Random House,439,English,5
+B244,Book 244,J.K. Rowling,Self Help,2017,HarperCollins,278,English,7
+B245,Book 245,Brandon Sanderson,Science Fiction,2007,Random House,496,English,1
+B246,Book 246,Alice Brown,History,2021,HarperCollins,559,English,8
+B247,Book 247,Alice Brown,Self Help,2024,Pearson,690,English,0
+B248,Book 248,Jane Austen,History,1986,HarperCollins,399,English,4
+B249,Book 249,Maria Green,Biography,2007,Penguin,305,English,2
+B250,Book 250,Jane Austen,Programming,1989,HarperCollins,151,English,1
+B251,Book 251,Mark Lee,Business,1998,No Starch,549,English,7
+B252,Book 252,Sarah Mitchell,Mystery,2008,O'Reilly,452,English,1
+B253,Book 253,Maria Green,Fantasy,1994,HarperCollins,170,English,1
+B254,Book 254,Yuval Noah Harari,Data Science,2012,No Starch,572,English,6
+B255,Book 255,Yuval Noah Harari,Romance,2017,Penguin,473,English,6
+B256,Book 256,J.K. Rowling,History,2022,No Starch,659,English,4
+B257,Book 257,Agatha Christie,Romance,2010,Random House,176,English,0
+B258,Book 258,Brandon Sanderson,History,1998,HarperCollins,381,English,4
+B259,Book 259,Sarah Mitchell,Science Fiction,1985,No Starch,560,English,2
+B260,Book 260,Robert Martin,Programming,2019,Pearson,355,English,8
+B261,Book 261,Isaac Asimov,Biography,1989,No Starch,163,English,6
+B262,Book 262,Agatha Christie,Data Science,1989,O'Reilly,559,English,6
+B263,Book 263,Mark Lee,Programming,2003,Penguin,534,English,0
+B264,Book 264,Sarah Mitchell,Mystery,2024,No Starch,490,English,1
+B265,Book 265,John Smith,Science Fiction,2000,No Starch,530,English,8
+B266,Book 266,J.K. Rowling,Programming,2004,Pearson,467,English,3
+B267,Book 267,Sarah Mitchell,Mystery,1989,Random House,236,English,8
+B268,Book 268,Isaac Asimov,Romance,2007,O'Reilly,271,English,3
+B269,Book 269,J.K. Rowling,Mystery,2001,HarperCollins,297,English,2
+B270,Book 270,Alice Brown,Science Fiction,1996,Pearson,625,English,7
+B271,Book 271,Alice Brown,Self Help,2022,No Starch,698,English,5
+B272,Book 272,David Clark,Biography,1994,No Starch,189,English,7
+B273,Book 273,Emily Stone,History,2002,Random House,177,English,5
+B274,Book 274,Isaac Asimov,Science Fiction,2004,No Starch,582,English,0
+B275,Book 275,Agatha Christie,Biography,2003,Penguin,212,English,8
+B276,Book 276,John Smith,Data Science,2022,Random House,162,English,7
+B277,Book 277,Maria Green,Self Help,1997,O'Reilly,607,English,8
+B278,Book 278,Robert Martin,Fantasy,2013,Penguin,471,English,1
+B279,Book 279,Isaac Asimov,Mystery,1987,HarperCollins,568,English,7
+B280,Book 280,Isaac Asimov,Business,2024,HarperCollins,492,English,5
+B281,Book 281,Maria Green,History,2009,No Starch,466,English,0
+B282,Book 282,Alice Brown,Biography,1989,O'Reilly,216,English,8
+B283,Book 283,George Orwell,Programming,2003,O'Reilly,273,English,5
+B284,Book 284,J.K. Rowling,Self Help,1994,O'Reilly,437,English,6
+B285,Book 285,Robert Martin,Self Help,1990,O'Reilly,692,English,6
+B286,Book 286,George Orwell,Biography,1993,Pearson,659,English,1
+B287,Book 287,George Orwell,Programming,2017,O'Reilly,138,English,5
+B288,Book 288,Yuval Noah Harari,Mystery,1998,O'Reilly,617,English,3
+B289,Book 289,Brandon Sanderson,Mystery,1994,Penguin,422,English,1
+B290,Book 290,Isaac Asimov,Business,2018,Penguin,464,English,2
+B291,Book 291,Jane Austen,Programming,1994,HarperCollins,305,English,2
+B292,Book 292,Mark Lee,Data Science,1987,No Starch,493,English,3
+B293,Book 293,Emily Stone,Self Help,2003,Pearson,579,English,3
+B294,Book 294,Isaac Asimov,Romance,2004,No Starch,318,English,5
+B295,Book 295,George Orwell,Self Help,2013,No Starch,408,English,6
+B296,Book 296,Isaac Asimov,Business,2011,HarperCollins,324,English,2
+B297,Book 297,David Clark,History,1988,Pearson,612,English,5
+B298,Book 298,Isaac Asimov,Science Fiction,2018,Penguin,411,English,1
+B299,Book 299,Alice Brown,Mystery,2002,No Starch,645,English,2
+B300,Book 300,David Clark,Programming,1990,HarperCollins,581,English,5
+B301,Book 301,Maria Green,Fantasy,2011,Penguin,525,English,8
+B302,Book 302,Sarah Mitchell,Romance,2009,Penguin,503,English,3
+B303,Book 303,Agatha Christie,Biography,1991,Pearson,463,English,2
+B304,Book 304,Robert Martin,Fantasy,2003,No Starch,262,English,7
+B305,Book 305,Emily Stone,Self Help,1985,Penguin,139,English,4
+B306,Book 306,Brandon Sanderson,Mystery,2020,Pearson,660,English,6
+B307,Book 307,J.K. Rowling,History,2000,O'Reilly,244,English,0
+B308,Book 308,Brandon Sanderson,Programming,2025,Random House,588,English,1
+B309,Book 309,J.K. Rowling,Data Science,2023,Random House,136,English,8
+B310,Book 310,Jane Austen,Romance,1994,O'Reilly,559,English,0
+B311,Book 311,Jane Austen,Biography,2000,Random House,546,English,2
+B312,Book 312,George Orwell,Science Fiction,2018,O'Reilly,189,English,8
+B313,Book 313,Isaac Asimov,Business,2017,Random House,140,English,6
+B314,Book 314,David Clark,Data Science,1987,Pearson,516,English,5
+B315,Book 315,Yuval Noah Harari,Fantasy,2007,Penguin,473,English,3
+B316,Book 316,Mark Lee,Science Fiction,2022,Pearson,460,English,2
+B317,Book 317,Agatha Christie,Biography,2019,O'Reilly,299,English,7
+B318,Book 318,Mark Lee,Data Science,2025,HarperCollins,258,English,1
+B319,Book 319,Mark Lee,Data Science,1987,O'Reilly,326,English,0
+B320,Book 320,Alice Brown,Romance,1987,O'Reilly,437,English,8
+B321,Book 321,John Smith,Business,2015,O'Reilly,157,English,3
+B322,Book 322,Yuval Noah Harari,Biography,1988,Pearson,459,English,4
+B323,Book 323,J.K. Rowling,Biography,2012,No Starch,570,English,6
+B324,Book 324,Sarah Mitchell,Mystery,2016,Pearson,629,English,5
+B325,Book 325,Maria Green,Business,2002,Penguin,554,English,1
+B326,Book 326,John Smith,Self Help,1996,Random House,420,English,5
+B327,Book 327,J.K. Rowling,Science Fiction,2005,Pearson,422,English,4
+B328,Book 328,Emily Stone,Self Help,2012,HarperCollins,574,English,5
+B329,Book 329,Emily Stone,Fantasy,2007,Random House,565,English,4
+B330,Book 330,George Orwell,Fantasy,1989,Pearson,535,English,5
+B331,Book 331,Isaac Asimov,Mystery,1986,HarperCollins,568,English,0
+B332,Book 332,Robert Martin,Science Fiction,2000,Pearson,495,English,5
+B333,Book 333,John Smith,Self Help,1987,Random House,277,English,7
+B334,Book 334,Sarah Mitchell,Biography,2013,Penguin,260,English,8
+B335,Book 335,Sarah Mitchell,Programming,2005,Pearson,405,English,3
+B336,Book 336,J.K. Rowling,Fantasy,1996,No Starch,650,English,6
+B337,Book 337,Maria Green,Business,1992,O'Reilly,386,English,7
+B338,Book 338,Brandon Sanderson,Self Help,2003,Pearson,622,English,3
+B339,Book 339,J.K. Rowling,Mystery,1989,No Starch,296,English,7
+B340,Book 340,J.K. Rowling,Biography,2007,Pearson,186,English,8
+B341,Book 341,Isaac Asimov,History,2004,HarperCollins,298,English,5
+B342,Book 342,Isaac Asimov,Romance,1992,HarperCollins,262,English,3
+B343,Book 343,Alice Brown,Data Science,1986,O'Reilly,687,English,5
+B344,Book 344,Emily Stone,Business,1993,Random House,208,English,1
+B345,Book 345,Yuval Noah Harari,Programming,2015,Random House,540,English,6
+B346,Book 346,David Clark,Self Help,1989,HarperCollins,444,English,1
+B347,Book 347,Emily Stone,Data Science,2018,O'Reilly,251,English,8
+B348,Book 348,George Orwell,Self Help,1996,HarperCollins,563,English,8
+B349,Book 349,Maria Green,Fantasy,1992,Random House,276,English,4
+B350,Book 350,Robert Martin,Mystery,2005,Pearson,350,English,5
+B351,Book 351,Isaac Asimov,History,1990,O'Reilly,321,English,8
+B352,Book 352,Yuval Noah Harari,Mystery,2025,O'Reilly,666,English,1
+B353,Book 353,Isaac Asimov,Mystery,2022,Random House,277,English,2
+B354,Book 354,George Orwell,Self Help,2023,O'Reilly,697,English,0
+B355,Book 355,David Clark,Fantasy,1990,Penguin,391,English,3
+B356,Book 356,Alice Brown,Self Help,2011,Random House,151,English,7
+B357,Book 357,Maria Green,Business,2003,Pearson,429,English,7
+B358,Book 358,Brandon Sanderson,Programming,2004,No Starch,194,English,0
+B359,Book 359,Robert Martin,Data Science,2011,No Starch,595,English,3
+B360,Book 360,Sarah Mitchell,Self Help,1994,O'Reilly,446,English,5
+B361,Book 361,John Smith,Mystery,2008,Random House,695,English,1
+B362,Book 362,Sarah Mitchell,Romance,2014,Penguin,393,English,7
+B363,Book 363,Brandon Sanderson,Mystery,1991,Penguin,417,English,6
+B364,Book 364,David Clark,Self Help,2011,HarperCollins,283,English,5
+B365,Book 365,Maria Green,Self Help,2005,HarperCollins,283,English,7
+B366,Book 366,Isaac Asimov,Data Science,2016,O'Reilly,629,English,0
+B367,Book 367,J.K. Rowling,Programming,2017,No Starch,366,English,3
+B368,Book 368,Jane Austen,Biography,1988,Penguin,408,English,7
+B369,Book 369,Jane Austen,Data Science,2003,Random House,128,English,1
+B370,Book 370,John Smith,Mystery,2001,Pearson,494,English,6
+B371,Book 371,Sarah Mitchell,Fantasy,2010,Penguin,695,English,3
+B372,Book 372,Sarah Mitchell,Business,2003,Penguin,515,English,8
+B373,Book 373,Emily Stone,Business,2002,Random House,241,English,2
+B374,Book 374,J.K. Rowling,Programming,2008,O'Reilly,691,English,5
+B375,Book 375,Alice Brown,Mystery,1997,Random House,641,English,6
+B376,Book 376,Isaac Asimov,Fantasy,1987,Penguin,260,English,5
+B377,Book 377,Alice Brown,Data Science,2018,No Starch,272,English,8
+B378,Book 378,Robert Martin,Biography,2024,O'Reilly,286,English,6
+B379,Book 379,Jane Austen,History,2022,O'Reilly,639,English,8
+B380,Book 380,Isaac Asimov,Data Science,2021,O'Reilly,606,English,0
+B381,Book 381,Sarah Mitchell,Biography,1992,No Starch,435,English,0
+B382,Book 382,Jane Austen,Data Science,2001,Pearson,353,English,0
+B383,Book 383,Jane Austen,Data Science,1995,Random House,509,English,2
+B384,Book 384,David Clark,Romance,1987,Random House,232,English,3
+B385,Book 385,Agatha Christie,Data Science,2005,No Starch,275,English,6
+B386,Book 386,Mark Lee,Romance,2011,Random House,602,English,0
+B387,Book 387,Mark Lee,Mystery,2018,HarperCollins,694,English,5
+B388,Book 388,George Orwell,Data Science,2018,No Starch,441,English,2
+B389,Book 389,Emily Stone,Business,2006,Random House,482,English,4
+B390,Book 390,Jane Austen,Data Science,1997,HarperCollins,405,English,8
+B391,Book 391,Yuval Noah Harari,Romance,2004,O'Reilly,332,English,7
+B392,Book 392,Sarah Mitchell,Data Science,2007,Random House,400,English,4
+B393,Book 393,J.K. Rowling,Self Help,2019,No Starch,524,English,5
+B394,Book 394,Alice Brown,Mystery,2003,Penguin,414,English,1
+B395,Book 395,Sarah Mitchell,Data Science,2001,Pearson,610,English,3
+B396,Book 396,Brandon Sanderson,Business,2002,Random House,398,English,2
+B397,Book 397,J.K. Rowling,Self Help,2022,HarperCollins,368,English,0
+B398,Book 398,George Orwell,Business,1999,Pearson,358,English,0
+B399,Book 399,J.K. Rowling,Programming,2006,Pearson,603,English,1
+B400,Book 400,George Orwell,Mystery,1985,Random House,281,English,6
